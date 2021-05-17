@@ -1,0 +1,219 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\User\\DAFHardhat\\contracts\\CrowdsaleVesting.sol": {
+      "lastModificationDate": 1618922736565,
+      "contentHash": "ac395c6c3d077313421e49fc7c09c18f",
+      "sourceName": "contracts/CrowdsaleVesting.sol",
+      "solcConfig": {
+        "version": "0.8.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol",
+        "./ChainlinkETHUSDPriceConsumer.sol",
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.3"
+      ],
+      "artifacts": [
+        "Crowdsale"
+      ]
+    },
+    "C:\\Users\\User\\DAFHardhat\\contracts\\DAF.sol": {
+      "lastModificationDate": 1618526683620,
+      "contentHash": "a60ee574a5ab3e5f42af1c50df7a107a",
+      "sourceName": "contracts/DAF.sol",
+      "solcConfig": {
+        "version": "0.8.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.3"
+      ],
+      "artifacts": [
+        "DAF",
+        "IERC20Metadata"
+      ]
+    },
+    "C:\\Users\\User\\DAFHardhat\\contracts\\AggregatorV3Interface.sol": {
+      "lastModificationDate": 1618526260166,
+      "contentHash": "efb15b5a2c15d49a02bf7622c047303e",
+      "sourceName": "contracts/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.8.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.3"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "C:\\Users\\User\\DAFHardhat\\contracts\\ChainlinkETHUSDPriceConsumer.sol": {
+      "lastModificationDate": 1618526479818,
+      "contentHash": "3fcfc9c31a0fe649541af3e35e341e15",
+      "sourceName": "contracts/ChainlinkETHUSDPriceConsumer.sol",
+      "solcConfig": {
+        "version": "0.8.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "0.8.3"
+      ],
+      "artifacts": [
+        "ChainlinkETHUSDPriceConsumer"
+      ]
+    },
+    "C:\\Users\\User\\DAFHardhat\\contracts\\Ownable.sol": {
+      "lastModificationDate": 1618526323562,
+      "contentHash": "6684b2b68e7492d370d104a6944ea6ac",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.3"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\User\\DAFHardhat\\contracts\\IERC20.sol": {
+      "lastModificationDate": 1618526217324,
+      "contentHash": "9e484e67ec68045e762b3fc44a393d04",
+      "sourceName": "contracts/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.3"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    }
+  }
+}
